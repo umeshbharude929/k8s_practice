@@ -6,12 +6,12 @@ spec:
   replicas: 3
   selector:
     matchLabels:
-      app: jenkins
+      app: jenkins        # this is for deployment 
 
   template:
     metadata:
       labels:
-        app: jenkins
+        app: jenkins      #  this is for pod
 
     spec:
       containers:
